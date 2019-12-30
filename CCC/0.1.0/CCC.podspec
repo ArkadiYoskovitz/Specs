@@ -34,6 +34,6 @@ TODO: Add long description of the pod here.
   # s.preserve_paths
   s.vendored_libraries = 'libPendoSDK.a'
   # s.resource           = "PendoSDKResources.bundle"
-  s.dependency "Alamofire"
-  s.dependency "Pendo"
+  # s.dependency "Alamofire"
+  # s.dependency "Pendo"
 end
