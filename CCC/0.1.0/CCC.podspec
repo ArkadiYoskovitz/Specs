@@ -30,10 +30,10 @@ TODO: Add long description of the pod here.
   s.source           = { :http => 'https://pendo.bintray.com/pendo-ios-sdk-test/pendo-ios-sdk-libraries.tar.gz' }
   
   s.ios.deployment_target = '8.0'
-  # s.ios.xcconfig       = { "HEADER_SEARCH_PATHS" => "$(PODS_ROOT)/include/*" }
   # s.preserve_paths
+  s.ios.xcconfig       = { "HEADER_SEARCH_PATHS" => "$(PODS_ROOT)/include/*" }
   s.vendored_libraries = 'libPendoSDK.a'
-  # s.resource           = "PendoSDKResources.bundle"
+  s.resource           = 'PendoSDKResources.bundle'
   # s.dependency "Alamofire"
   # s.dependency "Pendo"
 end
