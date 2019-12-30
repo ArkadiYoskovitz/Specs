@@ -27,7 +27,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'ArkadiGiniApps' => 'arkadiy@gini-apps.com' }
   
   # s.source           = { :http => 'https://github.com/Clicktale/ClicktaleBeta/raw/master/ClicktaleBeta.zip' }
-  s.source           = { :http => 'https://pendo.bintray.com/pendo-ios-sdk-test/pendo-ios-sdk-libraries.tar.gz'
+  s.source           = { :http => 'https://pendo.bintray.com/pendo-ios-sdk-test/pendo-ios-sdk-libraries.tar.gz' }
   
   s.ios.deployment_target = '8.0'
   # s.ios.xcconfig       = { "HEADER_SEARCH_PATHS" => "$(PODS_ROOT)/include/*" }
