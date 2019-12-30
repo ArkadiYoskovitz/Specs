@@ -28,12 +28,13 @@ TODO: Add long description of the pod here.
   
   s.source           = { :http => 'https://github.com/Clicktale/ClicktaleBeta/raw/master/ClicktaleBeta.zip' }
   # s.source           = { :http => 'https://pendo.bintray.com/pendo-ios-sdk-test/pendo-ios-sdk-libraries.tar.gz' }
-  
-  s.ios.deployment_target = '8.0'
   # s.preserve_paths
-  s.ios.xcconfig       = { "HEADER_SEARCH_PATHS" => "$(PODS_ROOT)/include/*" }
-  s.vendored_libraries = 'libPendoSDK.a'
-  s.resource           = 'PendoSDKResources.bundle'
+  # s.ios.xcconfig       = { "HEADER_SEARCH_PATHS" => "$(PODS_ROOT)/include/*" }
+  # s.vendored_libraries = 'libPendoSDK.a'
+  # s.resource           = 'PendoSDKResources.bundle'
   # s.dependency "Alamofire"
+  s.ios.deployment_target = '9.0'
+  s.ios.vendored_frameworks = 'Clicktale.framework'
   s.dependency 'CCC'
+  # s.dependency 'ClicktaleBeta'
 end
